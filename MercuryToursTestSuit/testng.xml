@@ -1,16 +1,21 @@
 <suite name = "mercurytests" >
+<groups>
+    <run>
+    <include name="Acceptance"/>
+    </run>
+</groups>
 
-<test name = "some test">
+<test name = "Regression">
 
     <parameters>
     <parameter name="username" value="testname"></parameter>
     <parameter name="password" value="xyz"></parameter>
     <parameter name="confirmpassword" value="xyz"></parameter>
     </parameters>
-    <classes>
-    <class name="MercuryTours.MercuryTestSuite">
     
-    </class>
+    <classes>
+    <class name="MercuryTours.MercuryTestSuite"></class>
+    <class name="MercuryTours.NewTest"></class>
     </classes>
 </test>
 </suite>

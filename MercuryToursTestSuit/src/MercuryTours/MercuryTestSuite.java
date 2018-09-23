@@ -50,9 +50,9 @@ public class MercuryTestSuite {
 	@Parameters({"username","password","confirmpassword"})
 	public void userRegistration(String username,String password ,String confirmpassword ) {
 //		System.out.println("UserRegistration method");
-		driver.findElement(By.name(txtEmail)).sendKeys("tstUser");
-		driver.findElement(By.name(txtPassword)).sendKeys("abcxyz");
-		driver.findElement(By.name(txtConfirmPassword)).sendKeys("abcxyz");
+		driver.findElement(By.name(txtEmail)).sendKeys(username);
+		driver.findElement(By.name(txtPassword)).sendKeys(password);
+		driver.findElement(By.name(txtConfirmPassword)).sendKeys(confirmpassword);
 		driver.findElement(By.name(submitButton)).click();
 //		System.out.println("---------- xpath view ---------");
 		String xpath = driver.findElement(By.xpath("/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td/p[2]/font")).getText();

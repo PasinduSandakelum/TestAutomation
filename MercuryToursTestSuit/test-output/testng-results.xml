@@ -1,46 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="mercurytests" duration-ms="3990" started-at="2018-09-23T10:45:24Z" finished-at="2018-09-23T10:45:28Z">
+  <suite name="mercurytests" duration-ms="57" started-at="2018-09-23T11:03:23Z" finished-at="2018-09-23T11:03:23Z">
     <groups>
+      <group name="Acceptance">
+        <method signature="NewTest.newTest()[pri:0, instance:MercuryTours.NewTest@c038203]" name="newTest" class="MercuryTours.NewTest"/>
+      </group> <!-- Acceptance -->
     </groups>
-    <test name="some test" duration-ms="3990" started-at="2018-09-23T10:45:24Z" finished-at="2018-09-23T10:45:28Z">
-      <class name="MercuryTours.MercuryTestSuite">
-        <test-method status="PASS" signature="setupWebdriver()[pri:0, instance:MercuryTours.MercuryTestSuite@cc285f4]" name="setupWebdriver" is-config="true" duration-ms="5460" started-at="2018-09-23T10:45:18Z" finished-at="2018-09-23T10:45:24Z">
+    <test name="Regression" duration-ms="57" started-at="2018-09-23T11:03:23Z" finished-at="2018-09-23T11:03:23Z">
+      <class name="MercuryTours.NewTest">
+        <test-method status="PASS" signature="newTest()[pri:0, instance:MercuryTours.NewTest@c038203]" name="newTest" duration-ms="15" started-at="2018-09-23T11:03:23Z" finished-at="2018-09-23T11:03:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupWebdriver -->
-        <test-method status="PASS" signature="clickRegistration()[pri:0, instance:MercuryTours.MercuryTestSuite@cc285f4]" name="clickRegistration" duration-ms="1302" started-at="2018-09-23T10:45:24Z" finished-at="2018-09-23T10:45:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickRegistration -->
-        <test-method status="PASS" signature="userRegistration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MercuryTours.MercuryTestSuite@cc285f4]" name="userRegistration" duration-ms="2631" started-at="2018-09-23T10:45:25Z" depends-on-methods="MercuryTours.MercuryTestSuite.clickRegistration" finished-at="2018-09-23T10:45:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testname]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xyz]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[xyz]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userRegistration -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:MercuryTours.MercuryTestSuite@cc285f4]" name="cleanup" is-config="true" duration-ms="758" started-at="2018-09-23T10:45:28Z" finished-at="2018-09-23T10:45:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanup -->
-      </class> <!-- MercuryTours.MercuryTestSuite -->
-    </test> <!-- some test -->
+        </test-method> <!-- newTest -->
+      </class> <!-- MercuryTours.NewTest -->
+    </test> <!-- Regression -->
   </suite> <!-- mercurytests -->
 </testng-results>
