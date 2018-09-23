@@ -1,0 +1,17 @@
+<suite name = "mercurytests" >
+
+<test name = "some test">
+
+    <parameters>
+    <parameter name="username" value="testname"></parameter>
+    <parameter name="password" value="xyz"></parameter>
+    <parameter name="confirmpassword" value="xyz"></parameter>
+    </parameters>
+    <classes>
+    <class name="MercuryTours.MercuryTestSuite">
+    
+    </class>
+    </classes>
+</test>
+</suite>
+

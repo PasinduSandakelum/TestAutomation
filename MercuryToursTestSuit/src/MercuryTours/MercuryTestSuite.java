@@ -7,8 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.*;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
+
 
 public class MercuryTestSuite {
 
@@ -45,7 +47,8 @@ public class MercuryTestSuite {
 	}
 
 	@Test(dependsOnMethods = {"clickRegistration"})
-	public void userRegistration() {
+	@Parameters({"username","password","confirmpassword"})
+	public void userRegistration(String username,String password ,String confirmpassword ) {
 //		System.out.println("UserRegistration method");
 		driver.findElement(By.name(txtEmail)).sendKeys("tstUser");
 		driver.findElement(By.name(txtPassword)).sendKeys("abcxyz");
