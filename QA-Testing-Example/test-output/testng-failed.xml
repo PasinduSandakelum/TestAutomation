@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testpackage.QaTest">
+        <methods>
+          <include name="addTestAfterClass"/>
+          <include name="addTestAfterMethod"/>
+          <include name="addTestBeforeMethod"/>
+          <include name="addTestBeforeClass"/>
+          <include name="addTestAfter"/>
+          <include name="addTestBefore"/>
+          <include name="addTestDriver"/>
+        </methods>
+      </class> <!-- testpackage.QaTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

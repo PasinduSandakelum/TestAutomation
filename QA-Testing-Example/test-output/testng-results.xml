@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11293" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11293" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:21Z">
+      <class name="testpackage.QaTest">
+        <test-method status="PASS" signature="addTestBeforeMethod()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestBeforeMethod" is-config="true" duration-ms="11" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestBeforeMethod -->
+        <test-method status="PASS" signature="addTestBeforeClass()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestBeforeClass" is-config="true" duration-ms="0" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestBeforeClass -->
+        <test-method status="PASS" signature="addTestBefore()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestBefore" is-config="true" duration-ms="1" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestBefore -->
+        <test-method status="PASS" signature="addTest1()[pri:0, instance:testpackage.QaTest@c038203]" name="addTest1" duration-ms="6" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest1 -->
+        <test-method status="PASS" signature="addTestBefore()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestBefore" is-config="true" duration-ms="0" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestBefore -->
+        <test-method status="PASS" signature="addTest2()[pri:0, instance:testpackage.QaTest@c038203]" name="addTest2" duration-ms="2" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest2 -->
+        <test-method status="PASS" signature="addTestAfter()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestAfter" is-config="true" duration-ms="0" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestAfter -->
+        <test-method status="PASS" signature="addTestAfter()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestAfter" is-config="true" duration-ms="0" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestAfter -->
+        <test-method status="PASS" signature="addTestBefore()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestBefore" is-config="true" duration-ms="0" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestBefore -->
+        <test-method status="PASS" signature="addTest3()[pri:0, instance:testpackage.QaTest@c038203]" name="addTest3" duration-ms="2" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest3 -->
+        <test-method status="PASS" signature="addTestAfter()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestAfter" is-config="true" duration-ms="0" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestAfter -->
+        <test-method status="PASS" signature="addTestBefore()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestBefore" is-config="true" duration-ms="0" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestBefore -->
+        <test-method status="PASS" signature="addTestDriver()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestDriver" duration-ms="11241" started-at="2018-09-23T03:10:10Z" finished-at="2018-09-23T03:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestDriver -->
+        <test-method status="PASS" signature="addTestAfter()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestAfter" is-config="true" duration-ms="0" started-at="2018-09-23T03:10:21Z" finished-at="2018-09-23T03:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestAfter -->
+        <test-method status="PASS" signature="addTestAfterClass()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestAfterClass" is-config="true" duration-ms="1" started-at="2018-09-23T03:10:21Z" finished-at="2018-09-23T03:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestAfterClass -->
+        <test-method status="PASS" signature="addTestAfterMethod()[pri:0, instance:testpackage.QaTest@c038203]" name="addTestAfterMethod" is-config="true" duration-ms="1" started-at="2018-09-23T03:10:21Z" finished-at="2018-09-23T03:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestAfterMethod -->
+      </class> <!-- testpackage.QaTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

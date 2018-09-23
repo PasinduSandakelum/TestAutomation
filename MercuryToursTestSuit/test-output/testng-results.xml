@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3390" started-at="2018-09-23T10:16:46Z" finished-at="2018-09-23T10:16:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3390" started-at="2018-09-23T10:16:46Z" finished-at="2018-09-23T10:16:50Z">
+      <class name="MercuryTours.MercuryTestSuite">
+        <test-method status="PASS" signature="setupWebdriver()[pri:0, instance:MercuryTours.MercuryTestSuite@724af044]" name="setupWebdriver" is-config="true" duration-ms="5021" started-at="2018-09-23T10:16:41Z" finished-at="2018-09-23T10:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWebdriver -->
+        <test-method status="PASS" signature="clickRegistration()[pri:0, instance:MercuryTours.MercuryTestSuite@724af044]" name="clickRegistration" duration-ms="1047" started-at="2018-09-23T10:16:46Z" finished-at="2018-09-23T10:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegistration -->
+        <test-method status="PASS" signature="userRegistration()[pri:0, instance:MercuryTours.MercuryTestSuite@724af044]" name="userRegistration" duration-ms="2295" started-at="2018-09-23T10:16:47Z" depends-on-methods="MercuryTours.MercuryTestSuite.clickRegistration" finished-at="2018-09-23T10:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:MercuryTours.MercuryTestSuite@724af044]" name="cleanup" is-config="true" duration-ms="731" started-at="2018-09-23T10:16:50Z" finished-at="2018-09-23T10:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- MercuryTours.MercuryTestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
